@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('bm.png');
+    background-size: cover; /* Resmin tüm arka planı kaplamasını sağlar */
+   
+    background-attachment: fixed; /* Arka planın kaydırılmasını engeller ve sabitler */
+    background-color: #ffe4e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background:#e8e8e8;
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+    
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #4f4f4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b9d3ee;
+}
+#HafizaCiktisi span {
+    font-weight: bold;
+    color: red; 
+}

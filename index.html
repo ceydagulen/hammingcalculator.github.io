@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamming Code Simulator</title>
+   
+<link rel="stylesheet" href="bm.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Hamming Error-Correcting Code Simulator</h1> 
+        <label for="bitData">Lütfen Bit Uzunluğunu Seçiniz:</label>
+        <select id="bitData">
+            <option value="4">4 bit</option>
+            <option value="8">8 bit</option>
+            <option value="16">16 bit</option>
+        </select>
+        <br>
+        <input type="text" id="GirisData" placeholder="Data Bitlerinizi Giriniz">
+        <br>
+        <button onclick="HammingCodeOlustur()">Hamming Code Hesapla</button>
+        <div id="hammingCodeCiktisi"></div>
+       
+        <button onclick="introduceError()">Hata Ekleyin</button>
+        <div id="HafizaCiktisi"></div>
+    
+    </div>
+    <script src="bm.js"></script>
+</body>
+</html>
